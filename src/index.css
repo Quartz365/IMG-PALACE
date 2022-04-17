@@ -27,7 +27,7 @@
         @apply text-xl font-bold
     }
     .icon {
-        @apply text-2xl cursor-pointer
+        @apply text-2xl cursor-pointer 
     }
 }
 @layer utilities {

@@ -26,9 +26,9 @@ import img25 from "../assets/img25.jpg";
 
 const ImgGrid = () => {
   return (
-    <div className="max-w-[1240px] mx-auto py-16 px-4 text-center">
-      <h3 className="py-6">Popular Images</h3>
-      <div className="md:masonry-2-col lg:masonry-4-col box-border mx-auto before:box-inherit after:box-inherit items-center">
+    <div className="max-w-none mx-auto py-16 px-4 text-center">
+      <h2 className="py-6"> Popular Images </h2>
+      <div className="md:masonry-3-col lg:masonry-4-col box-border mx-auto before:box-inherit after:box-inherit items-center">
         <div class="break-inside  py-1 rounded-lg">
           <img src={img1} alt="/" />
         </div>
