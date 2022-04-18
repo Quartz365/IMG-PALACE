@@ -48,7 +48,6 @@ const ImgGrid = () => {
       });
   }, []);
 
-
   return (
     <div className="max-w-none mx-auto py-16 px-4 text-center">
       <h2 className="py-6"> Popular Images </h2>
